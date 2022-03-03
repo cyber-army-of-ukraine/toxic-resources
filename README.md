@@ -1,5 +1,5 @@
 # Registry of toxic resources 
-
+[https://raw.githubusercontent.com/cyber-army-of-ukraine/toxic-resources/master/resources.txt]
 
 ## How to stop
 Feel free to use any tool you wish and synchronize it with resources registry.
@@ -22,7 +22,7 @@ cd keys
 /bin/sh gen_ssh_keys.sh
 cd ../terraform/digital_ocean
 terraform init
-echo -e 'runner_resources_url = "<CHANGE TO URL WITH RESOURCES FILE, WHICH IS TEXT WITH ONE TESTED URL PER LINE>"
+echo -e 'runner_resources_url = "https://raw.githubusercontent.com/cyber-army-of-ukraine/toxic-resources/master/resources.txt"
 runner_bombardier_connections_per_resource = 500
 instance_count = 3
 instance_region = "fra1"
