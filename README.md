@@ -4,7 +4,7 @@ https://raw.githubusercontent.com/cyber-army-of-ukraine/toxic-resources/master/r
 ## How to stop
 Feel free to use any tool you wish and synchronize it with resources registry.
 
-If you don't know how to scale and run in in cloud feel free to use [Massive Stress Framework](https://github.com/ynovel/massivestress).  
+If you don't know how to scale and run it in cloud feel free to use [Massive Stress Framework](https://github.com/ynovel/massivestress).  
 1. Clone repository.
    ```shell
     git clone https://github.com/ynovel/massivestress.git
@@ -31,3 +31,4 @@ runner_bombardier_duration = "720h"
 ' > terraform.tfstate
 terraform apply # type "yes"
 ```
+_instance_count_ config parameter stand for scalability :)
