@@ -1,5 +1,5 @@
 # Registry of toxic resources 
-[https://raw.githubusercontent.com/cyber-army-of-ukraine/toxic-resources/master/resources.txt]
+https://raw.githubusercontent.com/cyber-army-of-ukraine/toxic-resources/master/resources.txt
 
 ## How to stop
 Feel free to use any tool you wish and synchronize it with resources registry.
