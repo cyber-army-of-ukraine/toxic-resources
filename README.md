@@ -23,12 +23,12 @@ cd keys
 cd ../terraform/digital_ocean
 terraform init
 echo -e 'runner_resources_url = "https://raw.githubusercontent.com/hem017/cytro/master/targets_all.txt"
-runner_bombardier_connections_per_resource = 500
+runner_bombardier_connections_per_resource = 1000
 instance_count = 3
 instance_region = "fra1"
-instance_type = "s-1vcpu-1gb"
+instance_type = "s-2vcpu-2gb"
 runner_bombardier_duration = "720h"
-' > terraform.tfstate
+' > terraform.tfvars
 terraform apply # type "yes"
 ```
 _instance_count_ config parameter stand for scalability :)
